@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section1 {
+    padding: 5% 0;
+}
+.section1 .top h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.section1 .left{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(189, 189, 189);
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.section1 .left a{
+    font-size: 20px;
+    color: rgb(114, 114, 114);
+}
+.section1 .right{
+    width: 30px;
+    height: 30px;
+    background-color:rgb(189, 189, 189);
+    
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.section1 .right a{
+    font-size: 20px;
+    color: rgb(114, 114, 114);
+}
+
+.section1 .cards {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: block;
+    transition: .4s;
+}
+
+.section1 .cards .product {
+    width: 60%;
+    margin: auto;
+    padding: 1.5rem 0;
+}
+
+.section1 .cards img {
+    width: 100%;
+}
+
+.section1 .cards h1 {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: black;
+    transition: .4s;
+}
+
+.section1 .cards:hover {
+    border: 1px solid #00ff00;
+    box-shadow: 0px 2px 5px 3px #ababab99;
+}
+.section1 .cards:hover h1 {
+    color:#00ff00;
+    
+}
+.section2{
+    padding: 2rem 0;
+}
+
+.section2 .box {
+    border-radius: 5px;
+    padding: 2rem 5%;
+}
+.section2 .box {
+    background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner.png);
+}
+.section2 .box {
+    background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner.png);
+}
+
+.section2 .box h1 {
+    font-size: 20px;
+}
+
+.section2 .box p {
+    font-size: 15px;
+}
+
+.section2 .box a {
+    padding: 10px 1rem;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.section2 .box a:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 14px 3px #ffffff99;
+}
+
+
+.section3 {
+    padding: 3rem 0;
+}
+
+.section3 .food {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5%;
+    transition: .5s;
+}
+.section3 .food:hover{
+    border: 1px solid green;
+    box-shadow: 0px 2px 14px 3px #ababab99;
+}
+
+
+.section3 .food img {
+    width: 100%;
+}
+
+.section3 .food .stars div i {
+    font-size: 12px;
+    text-align: start;
+}
+
+.section3 .food .stars div span {
+    font-size: 15px;
+    text-align: start;
+}
+
+.section3 .food .bottom h1 {
+    font-size: 20px;
+    text-align: start;
+}
+
+.section3 .food .bottom {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3 .food .bottom .add {
+    padding: 5px 10px;
+    background-color: #00c000;
+    border-radius: 5px;
+    color: #fff;
+    transition: .4s;
+}
+.section3 .food .bottom .add:hover {
+    background-color: #007200;
+    box-shadow: 0px 2px 14px 3px #ababab99;
+}
